@@ -13,7 +13,6 @@ include ('includes/header.php');
 </p>
 <br>
 <p><big>Paintball is great fun. It's a serious challenge.  Sign up and lets find a field.  See you out there on the field some time soon!</big></p>
-<p>MAKE A DATABASE THAT collects address and the significant extra can be the use of Google maps to track the nearest field to that address.</p>
 <br />
 <?php
 include ('includes/footer.php');
