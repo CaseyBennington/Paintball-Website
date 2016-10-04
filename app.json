@@ -1,0 +1,6 @@
+{
+  "name": "Paintball Website",
+  "description": "A website using PHP to show where paintball fields are to logged in users' location",
+  "repository": "https://github.com/caseybennington/Paintball-Website",
+  "addons": []
+}
