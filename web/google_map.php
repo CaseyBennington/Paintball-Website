@@ -51,8 +51,9 @@ $page_title = 'Find the Nearest Field';
                 mysqli_close($dbc);
             }
 
-            $url = 'http://maps.googleapis.com/maps/api/geocode/json?address=' .
+            $url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' .
                     urlencode($address) . '&sensor=true' . '&key=AIzaSyA1lhYipcYX_G-jutwBZYOoJ3pA96FSNgA';
+                    echo $url;
             $json = @file_get_contents($url);
             $data = json_decode($json);
 
