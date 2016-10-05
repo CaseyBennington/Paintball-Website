@@ -70,7 +70,7 @@ $page_title = 'Find the Nearest Field';
             }
             ?>
 
-            <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=API_KEY&libraries=places"></script>
+            <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=<?=API_KEY?>&libraries=places"></script>
             <script>
                 var map;
                 var infowindow;
