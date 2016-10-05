@@ -14,6 +14,8 @@ DEFINE('DB_USER', 'be093d74818bca');
 DEFINE('DB_PASSWORD', '93790984');
 DEFINE('DB_HOST', 'us-cdbr-iron-east-04.cleardb.net');
 DEFINE('DB_NAME', 'heroku_b2f319a0cc7c82a');
+
+DEFINE('API_KEY', 'AIzaSyA1lhYipcYX_G-jutwBZYOoJ3pA96FSNgA');
 // mysql://be093d74818bca:93790984@us-cdbr-iron-east-04.cleardb.net/heroku_b2f319a0cc7c82a?reconnect=true
 //
 // Make the connection:
