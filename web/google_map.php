@@ -83,14 +83,14 @@ $page_title = 'Find the Nearest Field';
                     var centerLatlng = new google.maps.LatLng(lat, lng);
 
                     // Marker Icons Declaration
-                    var icon = new google.maps.MarkerImage("smLinks-twitter.png", null, null, new google.maps.Point(41, 47));
+                    // var icon = new google.maps.MarkerImage("smLinks-twitter.png", null, null, new google.maps.Point(41, 47));
 
                     // Map Options
                     var myOptions = {
                         zoom: 9,
                         center: centerLatlng,
                         mapTypeId: google.maps.MapTypeId.ROADMAP,
-                        icons: icon
+                        // icons: icon
                     };
 
                     // Draw the map
