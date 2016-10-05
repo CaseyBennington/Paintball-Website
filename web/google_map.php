@@ -53,7 +53,6 @@ $page_title = 'Find the Nearest Field';
 
             $url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' .
                     urlencode($address) . '&key=' . API_KEY;
-                    echo $url;
             $json = @file_get_contents($url);
             $data = json_decode($json);
 
