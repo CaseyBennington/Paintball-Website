@@ -1,4 +1,4 @@
-##To get this up and running please follow the directions listed below.
+#To get this up and running please follow the directions listed below.
 
 1. Extract this file into c:\xampplite\htdocs, or import into NetBeans to
     same directory.

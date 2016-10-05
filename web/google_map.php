@@ -38,7 +38,7 @@ $page_title = 'Find the Nearest Field';
             require_once ('includes/mysqli_connect.php'); // Connect to the db.
             $custId = $_GET['id'];
             $q = "SELECT lastname, firstname, address, city, state, zip, custId FROM customers WHERE custId = $custId";
-            $r = @mysqli_query($dbc, $q); // Run the query. 
+            $r = @mysqli_query($dbc, $q); // Run the query.
 
             if (mysqli_affected_rows($dbc) == 0) {
                 echo '<p class="error">Sorry, we could not find any members.</p>';
@@ -52,7 +52,7 @@ $page_title = 'Find the Nearest Field';
             }
 
             $url = 'http://maps.googleapis.com/maps/api/geocode/json?address=' .
-                    urlencode($address) . '&sensor=true';
+                    urlencode($address) . '&sensor=true' . '&key=AIzaSyA1lhYipcYX_G-jutwBZYOoJ3pA96FSNgA';
             $json = @file_get_contents($url);
             $data = json_decode($json);
 

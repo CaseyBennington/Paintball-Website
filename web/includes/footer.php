@@ -1,19 +1,19 @@
-<br />
-<br />
+    <br />
+    <br />
 
-</div>	<!-- close content -->
+    </div>	<!-- close content -->
 
-<div id="footer">
+    <div id="footer">
 
-    <p>
-        San Diego Paintball Club
-        <br>
-        <?php
-        echo date("F j, Y, g:i a");
-        echo "<br />&copy; " . date("Y") . " All Rights Reserved";
-        ?>
-    </p>
+        <p>
+            San Diego Paintball Club
+            <br>
+            <?php
+            echo date("F j, Y, g:i a");
+            echo "<br />&copy; " . date("Y") . " All Rights Reserved";
+            ?>
+        </p>
 
-</div>	<!-- close footer -->
-</body>
+    </div>	<!-- close footer -->
+    </body>
 </html>
