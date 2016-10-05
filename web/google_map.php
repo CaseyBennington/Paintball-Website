@@ -52,7 +52,7 @@ $page_title = 'Find the Nearest Field';
             }
 
             $url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' .
-                    urlencode($address) . '&sensor=true' . '&key=' . API_KEY;
+                    urlencode($address) . '&key=' . API_KEY;
                     echo $url;
             $json = @file_get_contents($url);
             $data = json_decode($json);
@@ -70,7 +70,7 @@ $page_title = 'Find the Nearest Field';
             }
             ?>
 
-            <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=<?=API_KEY?>&libraries=places"></script>
+            <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=API_KEY&libraries=places"></script>
             <script>
                 var map;
                 var infowindow;
