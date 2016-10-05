@@ -77,8 +77,8 @@ tr:nth-child(even){
     text-align:left;
     padding:5px;
     margin-bottom:-20px;
-    -moz-box-shadow: 3px 3px 5px #000; 
-    -webkit-box-shadow: 3px 3px 5px #000; 
+    -moz-box-shadow: 3px 3px 5px #000;
+    -webkit-box-shadow: 3px 3px 5px #000;
     box-shadow: 3px 3px 5px #000;
 }
 #header h2 {
@@ -163,9 +163,9 @@ tr:nth-child(even){
     border-color: #dddddd #aaaaaa #aaaaaa #dddddd;
     border-width: 1px 2px 2px 1px;
     background-color:white;
-    -moz-box-shadow: 3px 3px 5px #000; 
-    -webkit-box-shadow: 3px 3px 5px #000; 
-    box-shadow: 3px 3px 5px #000; 
+    /*-moz-box-shadow: 3px 3px 5px #000; 
+    -webkit-box-shadow: 3px 3px 5px #000;
+    box-shadow: 3px 3px 5px #000; */
 }
 
 #content img:hover {
@@ -236,7 +236,7 @@ input#submit_button:hover, input#submit_button:focus {
 
 /* footer */
 #footer {
-    border-top:1px solid #999; 
+    border-top:1px solid #999;
     height:50px;
     margin:0 auto;
     text-align:right;
@@ -250,7 +250,7 @@ input#submit_button:hover, input#submit_button:focus {
         -1px -1px 0 #000,
         1px -1px 0 #000,
         -1px 1px 0 #000,
-        1px 1px 0 #000; 
+        1px 1px 0 #000;
 }
 .update {
     font-weight: bold;
