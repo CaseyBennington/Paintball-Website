@@ -1,4 +1,6 @@
-#To get this up and running please follow the directions listed below.
+[![See it in action.](paintball-website.png)](http://paintball-website.herokuapp.com/index.php)
+
+#To get this up and running locally please follow the directions listed below:
 
 1. Extract this file into c:\xampplite\htdocs, or import into NetBeans to
     same directory.
